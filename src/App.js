@@ -10,7 +10,7 @@ import { GlobalProvider}  from './ReactContext/GlobalContext';
 
 function App() {
   return (
-    <globalProvider>
+    <GlobalProvider>
       <div>
         <Header/>
         <Balance/>
@@ -18,7 +18,7 @@ function App() {
         <TransactionList/>
         <AddTransaction/>
       </div>
-    </globalProvider>
+    </GlobalProvider>
   );
 }
 
